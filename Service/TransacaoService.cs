@@ -1,8 +1,8 @@
-﻿using AppTransacaoFinanceira.Interfaces;
+﻿using AppTransacaoFinanceira.Data;
+using AppTransacaoFinanceira.Interfaces;
 using AppTransacaoFinanceira.Models;
-using TransacaoFinanceira.Data;
 
-namespace TransacaoFinanceira.Services
+namespace AppTransacaoFinanceira.Service
 
 {
     public class TransacaoService : ITransacaoFinanceira

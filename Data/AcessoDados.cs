@@ -1,7 +1,7 @@
 ﻿using AppTransacaoFinanceira.Interfaces;
 using AppTransacaoFinanceira.Models;
 
-namespace TransacaoFinanceira.Data
+namespace AppTransacaoFinanceira.Data
 {
     public class AcessoDados : IAcessoDados
     {
