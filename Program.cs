@@ -1,6 +1,6 @@
 ﻿using AppTransacaoFinanceira.Models;
-using TransacaoFinanceira.Data;
-using TransacaoFinanceira.Services;
+using AppTransacaoFinanceira.Data;
+using AppTransacaoFinanceira.Service;
 
 public class Program
 {
