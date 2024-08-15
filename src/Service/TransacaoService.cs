@@ -9,6 +9,10 @@ namespace AppTransacaoFinanceira.Service
     {
         private readonly IAcessoDados _acessoDados;
 
+        public TransacaoService()
+        {
+        }
+
         public TransacaoService(IAcessoDados acessoDados)
         {
             _acessoDados = acessoDados;
