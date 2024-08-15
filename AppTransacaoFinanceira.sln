@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTransacaoFinanceira", "AppTransacaoFinanceira.csproj", "{BC19A01E-ACA3-4A61-B441-4A32E1109431}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTransacaoFinanceiraTestes", "AppTransacaoFinanceiraTestes\AppTransacaoFinanceiraTestes.csproj", "{537E84D1-9FED-43B8-8902-C6418E1EF687}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTransacaoFinanceiraTest", "..\AppTransacaoFinanceiraTest\AppTransacaoFinanceiraTest.csproj", "{E31B1594-A7E3-49C1-AB00-E0EFD6C72DA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{BC19A01E-ACA3-4A61-B441-4A32E1109431}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC19A01E-ACA3-4A61-B441-4A32E1109431}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC19A01E-ACA3-4A61-B441-4A32E1109431}.Release|Any CPU.Build.0 = Release|Any CPU
-		{537E84D1-9FED-43B8-8902-C6418E1EF687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{537E84D1-9FED-43B8-8902-C6418E1EF687}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{537E84D1-9FED-43B8-8902-C6418E1EF687}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{537E84D1-9FED-43B8-8902-C6418E1EF687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31B1594-A7E3-49C1-AB00-E0EFD6C72DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31B1594-A7E3-49C1-AB00-E0EFD6C72DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31B1594-A7E3-49C1-AB00-E0EFD6C72DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31B1594-A7E3-49C1-AB00-E0EFD6C72DA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

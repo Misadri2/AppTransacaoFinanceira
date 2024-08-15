@@ -7,16 +7,16 @@ namespace AppTransacaoFinanceira.Service
 {
     public class TransacaoService : ITransacaoFinanceira
     {
-        private readonly AcessoDados _acessoDados;
+        private readonly IAcessoDados _acessoDados;
 
-        public TransacaoService(AcessoDados acessoDados)
+        public TransacaoService(IAcessoDados acessoDados)
         {
             _acessoDados = acessoDados;
         }
 
         public void Transferir(int correlationId, long contaOrigem, long contaDestino, decimal valor)
         {
-            var contaSaldoOrigem = _acessoDados.GetSaldo<ContaSaldo>((int)contaOrigem);
+            var contaSaldoOrigem = _acessoDados.getSaldo<ContaSaldo>(contaOrigem);
 
             if (contaSaldoOrigem == null || contaSaldoOrigem.Saldo < valor)
             {
@@ -24,7 +24,7 @@ namespace AppTransacaoFinanceira.Service
                 return;
             }
 
-            var contaSaldoDestino = _acessoDados.GetSaldo<ContaSaldo>((int)contaDestino);
+            var contaSaldoDestino = _acessoDados.getSaldo<ContaSaldo>(contaDestino);
 
             if (contaSaldoDestino == null)
             {

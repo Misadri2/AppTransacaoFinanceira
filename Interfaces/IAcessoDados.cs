@@ -9,7 +9,7 @@ namespace AppTransacaoFinanceira.Interfaces
 {
     public interface IAcessoDados
     {
-        T GetSaldo<T>(int id) where T : class;
+        T getSaldo<T>(long id);
         bool Atualizar<T>(T dado) where T : ContaSaldo;
     }
 }

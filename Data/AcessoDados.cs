@@ -33,9 +33,9 @@ namespace AppTransacaoFinanceira.Data
 
         }
 
-        public T GetSaldo<T>(int id) where T : class
+        public T getSaldo<T>(long id)
         {
-            return _tabelaSaldos.Find(x => x.Conta == id) as T;
+            return (T)Convert.ChangeType(_tabelaSaldos.Find(x => x.Conta == id), typeof(T));
         }
 
         public bool Atualizar<T>(T dado) where T : ContaSaldo
