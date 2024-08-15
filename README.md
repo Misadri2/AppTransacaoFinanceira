@@ -6,7 +6,7 @@
 
 ### Modifiquei o retorno do CW para não ter mais os erros.
 
-### Retirei o paralelismo para não transação da mesma conta ao mesmo instante, podendo causar erros.
+### Retirei o paralelismo para não processar transações da mesma conta ao mesmo tempo, podendo causar erros.
 
 ### Criei testes unitários para os services.
 
